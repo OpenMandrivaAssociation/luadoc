@@ -14,7 +14,7 @@ Source0:        http://luaforge.net/frs/download.php/3185/%{name}-%{version}.tar
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch:      noarch
 
-Requires:       lua = %{luaver}
+Requires:       lua
 Requires:       lua-filesystem
 Requires:       lua-logging
 
