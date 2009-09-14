@@ -4,7 +4,7 @@
 
 Name:           luadoc
 Version:        3.0.1
-Release:        %mkrel 1
+Release:        %mkrel 2
 Summary:        Documentation Generator Tool for the Lua language
 
 Group:          Development/Other
