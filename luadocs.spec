@@ -50,3 +50,24 @@ rm -rf $RPM_BUILD_ROOT
 %doc README
 %{luapkgdir}/*
 %{_bindir}/luadoc
+
+
+%changelog
+* Mon Dec 06 2010 Oden Eriksson <oeriksson@mandriva.com> 3.0.1-4mdv2011.0
++ Revision: 612778
+- the mass rebuild of 2010.1 packages
+
+* Tue Feb 02 2010 Rémy Clouard <shikamaru@mandriva.org> 3.0.1-3mdv2010.1
++ Revision: 499393
+- rebuild for new lua-filesystem
+
+* Mon Sep 14 2009 Thierry Vignaud <tv@mandriva.org> 3.0.1-2mdv2010.0
++ Revision: 439623
+- rebuild
+
+* Sun Dec 28 2008 Jérôme Soyer <saispo@mandriva.org> 3.0.1-1mdv2009.1
++ Revision: 320583
+- Fix Requires
+- import luadoc
+
+
