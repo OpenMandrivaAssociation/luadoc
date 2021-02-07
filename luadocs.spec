@@ -1,10 +1,10 @@
-%define luaver 5.1
+%define luaver 5.3
 %define lualibdir %{_libdir}/lua/%{luaver}
 %define luapkgdir %{_datadir}/lua/%{luaver}
 
 Name:           luadoc
 Version:        3.0.1
-Release:        5
+Release:        6
 Summary:        Documentation Generator Tool for the Lua language
 
 Group:          Development/Other
@@ -31,18 +31,14 @@ flexible and can be customized by implementing new taglets.
 %prep
 %setup -q
 
-
 %build
-
 
 %install
 rm -rf $RPM_BUILD_ROOT
 make install PREFIX=$RPM_BUILD_ROOT/%{_prefix} LUA_LIBDIR=$RPM_BUILD_ROOT/%{lualibdir} LUA_DIR=$RPM_BUILD_ROOT/%{luapkgdir} SYS_BINDIR=$RPM_BUILD_ROOT/%{_bindir} LUA_INTERPRETER=%{_bindir}/lua
 
-
 %clean
 rm -rf $RPM_BUILD_ROOT
-
 
 %files
 %defattr(-,root,root,-)
