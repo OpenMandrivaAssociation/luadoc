@@ -9,7 +9,7 @@ Summary:        Documentation Generator Tool for the Lua language
 
 Group:          Development/Other
 License:        MIT
-URL:            http://luadoc.luaforge.net/
+URL:            https://luadoc.luaforge.net/
 Source0:        http://luaforge.net/frs/download.php/3185/%{name}-%{version}.tar.gz
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch:      noarch
