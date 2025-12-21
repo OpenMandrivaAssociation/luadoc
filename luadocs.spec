@@ -18,6 +18,7 @@ Requires:       lua
 Requires:       lua-filesystem
 Requires:       lua-logging
 
+BuildRequires:	make
 %description
 LuaDoc is a documentation generator tool for Lua source code. It parses the
 declarations and documentation comments in a set of Lua source files and
